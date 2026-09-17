@@ -19,32 +19,21 @@ MindDesk is a modern, distraction-free personal productivity web application des
 - **Vanilla CSS**: Extensible design token architecture.
 - **Browser LocalStorage API**: Complete client-side state execution.
 
-## Getting Started
+## How to Use MindDesk
 
-### Prerequisites
-Make sure you have Node.js installed on your machine.
+MindDesk is designed to stay out of your way while keeping you entirely focused on your tasks. There is no complicated setup process or lengthy tutorials—just open the app and start planning.
 
-### Installation
+### 1. The Dashboard Experience
+Your primary view is the overview **Dashboard**. This is the aggregate command center that calculates your progress on today's tasks and surfaces any active goals and recent notes precisely when you start your day. The Dashboard gives you a quick visual gauge of how your day is shaping up.
 
-1. Clone the repository to your local machine.
+### 2. Quick Add Modal
+In the top right corner of any page, you will notice a vibrant **Quick Add** button. Because an idea can strike at any moment, you can hit this button to instantly append a Task, jot down a Note, or set a Goal without ever needing to navigate away from the page you are currently viewing.
 
-2. Navigate to the project directory:
-   ```bash
-   cd MindDesk
-   ```
+### 3. Zen Writing Mode
+The Notes section features a custom, immersive text editor. Simply click on a Note to expand it. 
+- You can dynamically **Pin** crucial notes to immediately force them to the top of your list.
+- A **Fast Search** input allows you to trace keywords across all saved notes instantly.
+- **Zero-Friction Saving**: There is no save button! MindDesk utilizes a 500-millisecond background save algorithm, meaning everything you type is instantly pushed securely to your local storage.
 
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Spin up the development server:
-   ```bash
-   npm run dev
-   ```
-
-5. Open your browser and navigate to `http://localhost:5173` to view the app!
-
-## Deployment
-
-MindDesk is fully configured to be deployed instantly on platforms like **Vercel** or **Netlify**. A `vercel.json` configuration file is already included to support Client-Side Routing specifically for Single Page Applications (SPA).
+### 4. Progress and Planning
+Separate your work intelligently between the **Tasks** view (for standard daily to-do lists) and the **Planner**, allowing you to sketch out multi-day workflows comfortably. As you check off items, your overarching Dashboard completion metrics will seamlessly recalculate in real-time.
